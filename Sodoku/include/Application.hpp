@@ -22,7 +22,7 @@ class Application
         const int X = 600;
         const int Y =600;
         std::vector<Widget*> widgets;
-        std::vector<SodokuBox*> boxes;
+        std::vector<std::vector<SodokuBox*>> boxes;
         JatekMester* master;
 
         std::ifstream file;

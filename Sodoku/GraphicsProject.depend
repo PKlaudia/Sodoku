@@ -1,37 +1,37 @@
 # depslib dependency file v1.0
-1588438115 source:c:\users\dius91\desktop\bead3\sodoku\main.cpp
+1588963383 source:c:\users\dius91\desktop\bead3\sodoku\main.cpp
 	<iostream>
 	"Application.hpp"
 
 1488256928 c:\users\dius91\desktop\bead3\sodoku\include\graphics.hpp
 	<string>
 
-1588437848 source:c:\users\dius91\desktop\bead3\sodoku\src\pushbutton.cpp
+1588941959 source:c:\users\dius91\desktop\bead3\sodoku\src\pushbutton.cpp
 	"PushButton.hpp"
 	"graphics.hpp"
 	"Widget.hpp"
 	<string>
 	<iostream>
 
-1588438011 c:\users\dius91\desktop\bead3\sodoku\include\pushbutton.hpp
+1588941959 c:\users\dius91\desktop\bead3\sodoku\include\pushbutton.hpp
 	"graphics.hpp"
 	"Widget.hpp"
 	<string>
 
-1588438011 c:\users\dius91\desktop\bead3\sodoku\include\widget.hpp
+1588942424 c:\users\dius91\desktop\bead3\sodoku\include\widget.hpp
 	"graphics.hpp"
 	<string>
 	<vector>
 
-1588437848 source:c:\users\dius91\desktop\bead3\sodoku\src\sodokubox.cpp
+1589143674 source:c:\users\dius91\desktop\bead3\sodoku\src\sodokubox.cpp
 	"SodokuBox.hpp"
 	"iostream"
 
-1588438011 c:\users\dius91\desktop\bead3\sodoku\include\sodokubox.hpp
+1589124071 c:\users\dius91\desktop\bead3\sodoku\include\sodokubox.hpp
 	"Widget.hpp"
 	"graphics.hpp"
 
-1588437848 source:c:\users\dius91\desktop\bead3\sodoku\src\application.cpp
+1589143118 source:c:\users\dius91\desktop\bead3\sodoku\src\application.cpp
 	"Application.hpp"
 	"graphics.hpp"
 	"Widget.hpp"
@@ -42,14 +42,14 @@
 	"SodokuFrame.hpp"
 	"fstream"
 
-1588438011 c:\users\dius91\desktop\bead3\sodoku\include\application.hpp
+1588926664 c:\users\dius91\desktop\bead3\sodoku\include\application.hpp
 	"graphics.hpp"
 	"Widget.hpp"
 	<vector>
 	"JatekMester.hpp"
 	"SodokuBox.hpp"
 
-1588438011 c:\users\dius91\desktop\bead3\sodoku\include\jatekmester.hpp
+1589128357 c:\users\dius91\desktop\bead3\sodoku\include\jatekmester.hpp
 	"graphics.hpp"
 	"Widget.hpp"
 	"TextBox.hpp"
@@ -69,10 +69,14 @@
 	"graphics.hpp"
 	<vector>
 
-1588437848 source:c:\users\dius91\desktop\bead3\sodoku\src\jatekmester.cpp
+1589142986 source:c:\users\dius91\desktop\bead3\sodoku\src\jatekmester.cpp
 	"JatekMester.hpp"
 	"graphics.hpp"
 	"Widget.hpp"
+	"time.h"
+	"SodokuBox.hpp"
+	"iostream"
+	<vector>
 
 1588437848 source:c:\users\dius91\desktop\bead3\sodoku\src\sodokuframe.cpp
 	"SodokuFrame.hpp"
@@ -86,7 +90,7 @@
 	"Widget.hpp"
 	<string>
 
-1588437848 source:c:\users\dius91\desktop\bead3\sodoku\src\widget.cpp
+1588942404 source:c:\users\dius91\desktop\bead3\sodoku\src\widget.cpp
 	"Widget.hpp"
 	"graphics.hpp"
 	<string>

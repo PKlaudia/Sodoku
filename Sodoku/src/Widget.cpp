@@ -35,4 +35,9 @@ height = h;
 }
 bool Widget::getSelected(){
 return selected;
+
 }
+void Widget::setSelected(bool b){
+selected=b;
+}
+

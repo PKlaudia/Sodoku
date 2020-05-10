@@ -8,7 +8,7 @@ class SodokuBox:public Widget
     public:
         SodokuBox(int x, int y,int width, int height, int value, bool b);
         virtual ~SodokuBox();
-         virtual void draw();
+        virtual void draw();
         virtual void handle(const event ev);
 
 
@@ -18,7 +18,11 @@ class SodokuBox:public Widget
 
         void setRGB(int r,int g,int b);
         void setHide(bool b);
-
+        void setProperties(int v, bool b,int in);
+        bool getHide();
+        bool getMistake();
+        void setMistake(bool b);
+        void setLocked(bool b);
     protected:
 
     private:
@@ -26,7 +30,9 @@ class SodokuBox:public Widget
         int int_start;
         int int_end;
         bool hidden;
+        bool locked;
         int in_number;
+        bool mistake;
         std::vector<int> bg_rgb;
 
 };

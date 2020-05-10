@@ -12,12 +12,14 @@ class PushButton:public Widget
         virtual void draw();
         virtual void handle(event ev);
 
-        virtual void getValue(std::string &s);
+        void setPushed(bool b);
+        bool getPushed();
 
     protected:
 
     private:
         bool pushed;
+
         std::string title;
 
 };

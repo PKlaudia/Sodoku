@@ -6,11 +6,7 @@
 using namespace genv;
 class Widget
 {
-    protected:
-        int x, y, width, height;
-        int mouse_x =0;
-        int mouse_y =0;
-        bool selected = false;
+
 
     public:
 
@@ -26,11 +22,14 @@ class Widget
     int getWidth();
     int getHeight();
     bool getSelected();
-
+    void setSelected(bool b);
     void setWidth(int w);
     void setHeight(int h);
 
+protected:
+        int x, y, width, height;
 
+        bool selected = false;
 };
 
 #endif // WIDGET_HPP

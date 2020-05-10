@@ -9,6 +9,7 @@ PushButton::PushButton(int x, int y, int w, int h, std::string t):Widget(x,y,w,h
 {
     pushed = false ;
     title = t;
+
     //ctor
 }
 
@@ -26,8 +27,11 @@ void PushButton::handle(event ev){
 if(selected){
     pushed = true;
 
-}
-}
+}else{
+pushed=false;
 
-void PushButton::getValue(std::string &s){
+}
+}
+void PushButton::setPushed(bool b ){
+pushed = b;
 }
